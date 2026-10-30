@@ -1,0 +1,10 @@
+{
+  "entity.theabyss.stalker": "The Stalker",
+  "message.theabyss.w1": "§8§oDon't turn around.",
+  "message.theabyss.w2": "§8§oSomething is here.",
+  "message.theabyss.w3": "§8§oIt has noticed you.",
+  "message.theabyss.w4": "§8§oThe silence is too loud.",
+  "message.theabyss.dread": "§4Something is approaching...",
+  "advancements.theabyss.dont_get_closer.title": "Don't Get Closer",
+  "advancements.theabyss.dont_get_closer.description": "Spot the Stalker of the Abyss for the first time"
+}
