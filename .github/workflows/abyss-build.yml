@@ -1,7 +1,7 @@
 name: Build THE ABYSS
 on:
   push:
-    branches: [ abyss-new-mod ]
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
