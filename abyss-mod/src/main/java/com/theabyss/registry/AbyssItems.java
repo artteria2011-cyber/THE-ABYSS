@@ -2,7 +2,7 @@ package com.theabyss.registry;
 
 import com.theabyss.TheAbyss;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.SpawnEggItem;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,9 +12,9 @@ public class AbyssItems {
     public static final DeferredRegister<net.minecraft.world.item.Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TheAbyss.MODID);
 
-    public static final RegistryObject<SpawnEggItem> STALKER_SPAWN_EGG = ITEMS.register(
+    public static final RegistryObject<ForgeSpawnEggItem> STALKER_SPAWN_EGG = ITEMS.register(
             "stalker_spawn_egg",
-            () -> new SpawnEggItem(() -> AbyssEntities.STALKER.get(), 0x17131F, 0x6B2638,
+            () -> new ForgeSpawnEggItem(AbyssEntities.STALKER, 0x17131F, 0x6B2638,
                     new net.minecraft.world.item.Item.Properties())
     );
 
